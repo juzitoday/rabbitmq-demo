@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    host: test.juzi.com
+    port: 5671
+    username: admin
+    password: admin
+    virtual-host: /
+    ssl:
+      key-store: file:C:\workspace\rabbit-demo\rabbit-ssl\result\client_key.p12
+      key-store-password: bunnies
+      trust-store: file:C:\workspace\rabbit-demo\rabbit-ssl\result\server.keystore
+      trust-store-password: 123456
+      verify-hostname: false
+      enabled: true
+
+
+
